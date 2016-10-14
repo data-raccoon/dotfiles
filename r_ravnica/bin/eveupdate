@@ -1,0 +1,3 @@
+#!/usr/bin/env sh
+cd ~/.wine-eve/drive_c/Program\ Files\ \(x86\)/CCP/EVE/
+WINEPREFIX=$HOME/.wine-eve wine eve.exe

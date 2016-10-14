@@ -1,0 +1,2 @@
+#!/usr/bin/env sh
+sshfs sunnydale:shared /mnt/sun-shared

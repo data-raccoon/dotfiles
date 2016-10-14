@@ -1,0 +1,67 @@
+# view directory trees
+tree
+# terminal multiplexer, console sessions
+tmux
+# archiver and compression
+p7zip
+zip
+# connect to virtual private networks
+vpnc
+openvpn
+# needed for i3wm d-menu
+suckless-tools
+# backup and copy
+rsync
+# advanced shell
+zsh
+mosh
+# image converter
+imagemagick
+# console browser
+lynx
+# network file system to mount directories from other machines
+nfs-common
+# samba and other file systems, mount windows / mac shares
+cifs-utils
+# use ssh to mount remote data
+sshfs
+# samba server, share directories via windows shares
+samba
+# samba tools
+samba-common-bin
+# dav file system, mount dav shares
+davfs2
+# great lib for C
+libgsl0-dev
+# view mp3 information
+mp3info
+# data transfer from the internet
+curl
+# view processes working on harddisks etc.
+lsof
+# audio/video converter
+ffmpeg
+# time server
+ntp
+ntpdate
+# local dns cache
+dnsmasq
+# command line text-viewer
+most
+# performance monitor hd
+iotop
+# performance monitor network
+slurm
+# improved grep
+ack-grep
+# path stuff
+symlinks
+realpath
+# encrpytion
+ecryptfs-utils
+# parallel computing
+parallel
+# stable ssh
+autossh
+# dateconversion tools
+dateutils

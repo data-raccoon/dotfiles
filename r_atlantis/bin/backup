@@ -1,0 +1,21 @@
+#!/usr/bin/env sh
+#
+# backup.sh, 08.03.2012 by Stephan Porz
+
+# settings
+DESTS="sunnydale::stev1 sunnydale::stev2"
+OPTIONS=-aPv\ --delete\ --human-readable\ --exclude-from\ $HOME/.rsync-exclude
+
+for DEST in $DESTS
+do
+    # home directory
+    rsync "/home/stev"	 			$DEST $OPTIONS
+
+    # important directories on 2nd hard disc
+    rsync "/mnt/sec-data/music" 		$DEST $OPTIONS
+    rsync "/mnt/sec-data/doc" 			$DEST $OPTIONS
+    rsync "/mnt/sec-data/pictures" 		$DEST $OPTIONS
+    rsync "/mnt/sec-data/projects-archive" 	$DEST $OPTIONS
+    rsync "/mnt/sec-data/software" 		$DEST $OPTIONS
+done
+

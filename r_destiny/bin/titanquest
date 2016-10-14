@@ -1,0 +1,3 @@
+#!/usr/bin/env sh
+cd ~/.wine-tq/drive_c/Program\ Files/THQ/Titan\ Quest\ Immortal\ Throne/
+WINEPREFIX=$HOME/.wine-tq wine Tqit.exe

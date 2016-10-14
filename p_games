@@ -1,0 +1,10 @@
+# open red alert dependencies
+#libmono-i18n2.0-cil
+#libmono-winforms2.0-cil
+# 2d game
+teeworlds
+libstdc++5
+# environment to start windows applications
+wine
+winetricks
+playonlinux

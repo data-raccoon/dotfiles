@@ -1,0 +1,16 @@
+[user]
+	email = s.porz@ravinca.de
+	name = Stephan Porz
+
+[color]
+	branch = auto
+	diff = auto
+	interactive = auto
+	status = auto
+	ui = auto
+
+[core]
+	excludesfile = /home/stev/.gitignore
+
+[push]
+	default = current

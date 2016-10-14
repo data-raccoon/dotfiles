@@ -1,0 +1,2 @@
+#!/usr/bin/env sh
+sshfs sunnydale:/mnt/big-4tb /mnt/big-4tb

@@ -1,0 +1,3 @@
+#!/usr/bin/env sh
+cd ~/.wine-dow/drive_c/Program\ Files\ \(x86\)/THQ/Dawn\ of\ War\ -\ Soulstorm/
+WINEPREFIX=$HOME/.wine-dow wine Soulstorm.exe

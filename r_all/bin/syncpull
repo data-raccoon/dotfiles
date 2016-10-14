@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+git annex sync
+git annex unused
+git annex dropunused 1-1000
+git annex get *

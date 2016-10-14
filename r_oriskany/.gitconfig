@@ -1,0 +1,16 @@
+[user] 
+	name = stephan
+	email = stephan@adblockplus.org
+
+[color]
+	branch = auto
+	diff = auto
+	interactive = auto
+	status = auto
+	ui = auto
+
+[core]
+	excludesfile = /home/stev/.gitignore
+
+[push]
+	default = current

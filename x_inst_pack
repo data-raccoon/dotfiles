@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+# accepts a textfile containing comments (#) and package names as argument
+
+if [ ! "$USER" == "root" ]; then
+    echo "Use this script as root."
+    exit
+fi
+
+# install all packages from the provided file at once
+grep -v "#" $1 | xargs apt-get install $2

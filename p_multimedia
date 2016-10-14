@@ -1,0 +1,28 @@
+# gui audio editor
+audacity
+# copy audio-CDs on disk
+ripperx
+# edit mp3tags
+easytag
+# copy dvds on disk
+dvdbackup
+libdvdcss2
+libudf0
+# use dvb hardware to watch tv
+#dvb-apps
+#libxine1-all-plugins
+# dvb and video player
+#kaffeine
+#me-tv
+# violin score
+musescore
+# split image files to multiple a4 paper
+posterazor
+# organize pictures
+digikam
+# convert ebooks
+calibre
+# owncloud sync client
+#owncload-client
+# avconv video audio converter
+libav-tools

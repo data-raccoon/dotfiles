@@ -1,0 +1,12 @@
+# web application to synchronize calender and addressbook
+davical
+php5-curl
+libcurl3
+libcurl3-dev
+phpmyadmin
+# git repositories, easily managed
+gitolite
+# lightweight repository cacher
+apt-cacher-ng
+# media server
+minidlna

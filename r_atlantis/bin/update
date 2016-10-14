@@ -1,0 +1,41 @@
+#!/bin/sh
+
+echo "svn update ~/phd/sporz"
+cd ~/phd/sporz
+svn update
+
+echo "git pull ~/phd/powertower"
+cd ~/phd/powertower
+git pull
+
+echo "svn update ~/phd/alle"
+cd ~/phd/alle
+svn update
+
+echo "git pull ~/.dotfiles"
+cd ~/.dotfiles
+git pull
+
+echo "svn update ~/phd/jens"
+cd ~/phd/jens
+svn update
+
+echo "svn update ~/phd/gerrit"
+cd ~/phd/gerrit
+svn update
+
+echo "svn update ~/phd/geier"
+cd ~/phd/geier
+svn update
+
+echo "svn update ~/phd/henning"
+cd ~/phd/henning
+svn update
+
+echo "git pull ~/projects/pycarddav"
+cd ~/projects/pycarddav
+git pull
+
+echo "git pull ~/projects/solarized"
+cd ~/projects/solarized
+git pull

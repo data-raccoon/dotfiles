@@ -1,0 +1,41 @@
+#!/usr/bin/env bash
+
+# .dotfile linker, by Henning Dickten, modified by Stephan Porz
+
+echo "Creating links for all ..."
+
+cd ~/.dotfiles/r_all
+for file in `find . -name .git -prune -o -type f -print`;
+do
+    file=${file#./}
+
+    # if dir doesn't exists:
+    dir=`dirname $file`
+    mkdir -p ~/$dir
+
+    # add link:
+    ln -sf ~/.dotfiles/r_all/$file ~/$file
+done
+
+cd ~/.dotfiles/
+SPDIR=$HOSTNAME
+if [ -d r_$SPDIR ]; then
+    echo "Creating links for $SPDIR ..."
+
+    cd ~/.dotfiles/r_$SPDIR
+    for file in `find . -name .git -prune -o -type f -print`;
+    do
+        file=${file#./}
+
+        # if dir doesn't exists:
+        dir=`dirname $file`
+        mkdir -p ~/$dir
+
+        # add link:
+        ln -sf ~/.dotfiles/r_$SPDIR/$file ~/$file
+    done
+else
+    echo "No specialisation found."
+fi
+
+echo "Done deploying."

@@ -1,0 +1,38 @@
+#!/usr/bin/env bash
+
+if [ ! "$USER" == "root" ]; then
+    echo "Use this script as root."
+    exit
+fi
+
+PACKS=h_$HOSTNAME
+if [ $# -eq 1 ]; then
+    PACKS=$1
+fi
+
+if [ -f $PACKS ]; then
+    echo "Specialisation for host $HOSTNAME found."
+else
+    echo "No specialisation for $HOSTNAME found. Using default."
+    PACKS="h_all"
+fi
+
+echo "--------------------------------------------------------------------"
+echo " Installing packages from first.txt ..."
+echo "--------------------------------------------------------------------"
+./x_inst_pack p_first
+
+echo "--------------------------------------------------------------------"
+echo " Upgrading existing packages ..."
+echo "--------------------------------------------------------------------"
+apt-get update
+apt-get upgrade -y
+
+for item in $(grep '' $PACKS); do
+    echo "--------------------------------------------------------------------"
+    echo " Installing packages from p_$item ..."
+    echo "--------------------------------------------------------------------"
+    ./x_inst_pack p_$item -y
+done
+
+echo "Done installing."

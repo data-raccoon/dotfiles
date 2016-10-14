@@ -1,0 +1,3 @@
+#!/bin/sh
+java -jar ~/minecraft-mods/AT/ATLauncher.jar
+

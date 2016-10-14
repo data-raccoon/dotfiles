@@ -1,0 +1,3 @@
+#!/usr/bin/env sh
+lsof | grep big2
+fusermount -u /mnt/big2

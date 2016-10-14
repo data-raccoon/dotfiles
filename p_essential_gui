@@ -1,0 +1,28 @@
+# pdf and image viewer
+okular
+# video and audio player
+vlc
+# mp3 codecs
+lame
+# ogg codecs
+vorbis-tools
+# multi instant messenger
+pidgin
+# gui ftp client
+filezilla
+# java
+openjdk-7-jdk
+openjdk-7-jre
+openjdk-7-jre-headless
+openjdk-7-jre-lib
+# create bootable usb devices
+unetbootin
+# tiling window-manager
+i3
+# set background image
+feh
+# set gtk-theme
+gtk-theme-switch
+# mail including encryption
+thunderbird
+enigmail

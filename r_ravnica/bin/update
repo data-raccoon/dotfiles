@@ -1,0 +1,25 @@
+#!/bin/sh
+
+echo "svn update ~/sporz"
+cd ~/sporz
+svn update
+
+echo "git pull ~/powertower"
+cd ~/powertower
+git pull
+
+echo "svn update ~/alle"
+cd ~/alle
+svn update
+
+echo "git pull ~/.dotfiles"
+cd ~/.dotfiles
+git pull
+
+echo "svn update ~/jens"
+cd ~/jens
+svn update
+
+echo "svn update ~/gerrit"
+cd ~/gerrit
+svn update

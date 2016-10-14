@@ -1,0 +1,43 @@
+consider installing manually
+    # browser / e-mail client
+    opera download
+    # cloud data storage / sharing
+    dropbox download
+    # encrypted containers
+    truecrypt download
+    # (video- / voice-) chat
+    skype download
+    # networks / flowcharts
+    yEd download
+    # game starships / economy simulation
+    eve-online download
+    # game store
+    steam download
+    # beatiful fonts for formulas
+    xits-math from github
+    # map
+    google-earth download
+    # current version of data analysis package
+    pandas pip
+    # visual programming data analysis
+    orange pip
+    # python for android (etc. cross platform)
+    kivy pip
+
+consider packages
+    dadadodo
+    rmligs-german
+    # high throughput computing 
+    condor
+
+python
+    # parser
+    beautiful-soup
+    # http simpel
+    requests
+    # automatic building / deployment
+    fabric / buildozer
+    # ipython notebook to presentation
+    nbconverter
+smtp server emulation (siehe pycamp)
+

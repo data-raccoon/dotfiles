@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+source /usr/share/virtualenvwrapper/virtualenvwrapper.sh
+
+mkvirtualenv all --system-site-packages
+workon all
+pip install costcla 
+pip install bokeh
+pip install dask
+pip install jsonschema
+pip install mistune
+pip install ipython --upgrade
+

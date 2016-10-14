@@ -1,0 +1,3 @@
+#!/usr/bin/env sh
+cd ~/.wine-flatout/drive_c/Program\ Files\ \(x86\)/Empire\ Interactive/FlatOut2/
+WINEPREFIX=$HOME/.wine-flatout wine FlatOut2.exe

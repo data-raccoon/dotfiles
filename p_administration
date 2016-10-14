@@ -1,0 +1,30 @@
+# advanced package manager
+aptitude
+# package manager tool to find filenames in packages
+apt-file
+# partition manager, gui
+gparted
+# read motherboard sensors
+lm-sensors
+# gui administration of desktop stuff
+konsole
+gnome-tweak-tool
+systemsettings
+gconf-editor
+d-feet
+# bootable usb images
+unetbootin
+fsarchiver
+# hd info, manipulation
+smartmontools
+sdparm
+# bandwith control
+trickle
+# ssh-based remote configuration
+ansible
+# python package installer
+python-pip
+# install local deb packages with dependencies
+gdebi
+# encrypted backups
+duplicity

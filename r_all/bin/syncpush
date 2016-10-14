@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+git annex add *
+git annex copy --to sunnydale *
+git annex sync
+git annex unused
+git annex dropunused 1-1000

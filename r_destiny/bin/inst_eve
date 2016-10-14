@@ -1,0 +1,2 @@
+#!/usr/bin/env sh
+WINEPREFIX=$HOME/.wine-eve winetricks corefonts d3dx9_36 vcrun2005 vcrun2008 vcrun2010
