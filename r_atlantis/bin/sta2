@@ -1,3 +1,0 @@
-#!/usr/bin/env sh
-cd ~/.wine-starmada2/drive_c/Program\ Files/Activision/Star\ Trek\ Armada\ II
-WINEPREFIX=$HOME/.wine-starmada2 wine Armada2.exe
