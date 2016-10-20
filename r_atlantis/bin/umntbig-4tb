@@ -1,0 +1,3 @@
+#!/usr/bin/env sh
+lsof | grep big-4tb
+fusermount -u /mnt/big-4tb

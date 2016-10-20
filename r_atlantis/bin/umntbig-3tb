@@ -1,0 +1,3 @@
+#!/usr/bin/env sh
+lsof | grep big-3tb
+fusermount -u /mnt/big-3tb

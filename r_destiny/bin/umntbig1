@@ -1,3 +1,0 @@
-#!/usr/bin/env sh
-lsof | grep big1
-fusermount -u /mnt/big1
