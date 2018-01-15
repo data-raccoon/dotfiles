@@ -179,7 +179,8 @@ assign [class="Nautilus"] 9
 
 exec unity-settings-daemon
 exec gnome-terminal
-exec firefox
+#exec firefox
+exec sleep 5; google-chrome
 exec pa-applet
 exec sleep 5; feh --bg-max /home/sporz/custom/bgimage
 #exec /home/sporz/set_xrandr.sh
