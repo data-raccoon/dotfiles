@@ -1,0 +1,87 @@
+# python package installer
+python-pip
+# powerful arrays
+python-numpy
+# create great plots
+python-matplotlib
+# dot graphviz python bindings
+python-pydot
+# scientific functions
+python-scipy
+python-mdp
+python-sklearn
+python-pymc
+# data analysis framework
+python-pandas
+# support for hdf5 file format
+python-tables
+# error propagation
+python-uncertainties
+# convenient interactive python
+ipython
+# switch python environments
+python-virtualenv
+virtualenvwrapper
+# python style checker
+pep8
+pylint
+python-flake8
+# python tests
+python-pytest
+# python progressbar
+python-progressbar
+# python ipython debugger
+python-ipdb
+# version control system
+mercurial
+git
+# advanced log viewer for git
+tig
+# C compiler
+g++
+# build dep scipy
+libblas-dev
+liblapack-dev
+gfortran
+# eps crop
+epstool
+# command line calculations
+num-utils
+# more console stuff
+tree
+tmux
+p7zip
+zip
+rsync
+imagemagick
+lynx
+curl
+lsof
+most
+iotop
+htop
+slurm
+symlinks
+realpath
+parallel
+dateutils
+gdebi
+agrep
+tre-agrep
+# enhanced console editor
+vim
+# prerequisites for R packages
+libxml2-dev
+libcurl4-openssl-dev
+libpq-dev
+default-jre-headless
+python-dev
+libzmq3-dev
+# others
+golang
+postgresql
+openjdk-8-jre
+ruby
+awscli
+# ip2country
+geoipupdate

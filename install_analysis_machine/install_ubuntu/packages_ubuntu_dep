@@ -1,0 +1,11 @@
+# prerequisites for R packages
+libxml2-dev
+libcurl4-openssl-dev
+libpq-dev
+default-jre-headless
+python-dev
+libzmq3-dev
+# prerequisites for building flattr+
+npm
+# test driven shell scripts
+shunit2

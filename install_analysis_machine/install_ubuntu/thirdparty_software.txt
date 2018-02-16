@@ -1,0 +1,15 @@
+# ppa R cran
+r-base
+
+# ppa logstash
+logstash
+
+# ppa:maxmind/ppa
+libgeoip1
+libgeoip-dev
+geoip-bin
+
+# without ppa
+rstudio
+shiny
+y-ed

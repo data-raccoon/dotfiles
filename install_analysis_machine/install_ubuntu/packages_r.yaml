@@ -1,0 +1,58 @@
+cran:
+    - Rcpp
+    - codetools
+    - optparse
+    - devtools
+    - rPython
+    - yaml
+    - pbapply
+    - crayon
+    - RPushbullet
+    - XML
+    - rvest
+    - RPostgreSQL
+    - pander
+    - twitteR
+    - setwidth
+    - ggplot2
+    - rmarkdown
+    - purrr
+    - png
+    - xlsx
+    - lambda.tools
+    - shiny
+    - shinydashboard
+    - textcat
+    - lsa
+    - stringi
+    - lubridate
+    - pracma
+    - rworldmap
+    - logging
+    - DT
+    - urltools
+    - tidyverse
+    - rgeolocate
+    - roxygen2
+    - gtools
+    - tidyverse
+    - flexdashboard
+    - plotly
+    - ROAuth
+    - xts
+    - testthat
+
+github:
+    - skardhamar/rga
+    - jalvesaq/colorout
+    - jimhester/knitrBootstrap
+    - jennybc/googlesheets
+    - wrathematics/Rdym
+    - twitter/AnomalyDetection
+    - jayjacobs/tldextract
+
+#install.packages(c('rzmq','repr','IRkernel','IRdisplay'),
+#                 repos = c('http://irkernel.github.io/', getOption('repos')))
+#                 IRkernel::inistallspec()
+#
+#devtools::install_version("cldr",version="1.1.0")
