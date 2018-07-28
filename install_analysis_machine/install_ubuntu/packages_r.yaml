@@ -41,6 +41,7 @@ cran:
     - ROAuth
     - xts
     - testthat
+    - splitstackshape
 
 github:
     - skardhamar/rga

@@ -175,13 +175,17 @@ new_window 1pixel
 #bind $mod+96 exec "i3lock -t --image=/home/sporz/custom/lock"
 bind $mod+96 exec "i3lock -c `cat /dev/urandom | tr -dc 'a-f0-9' | head -c 6`"
 
-assign [class="Nautilus"] 9
+#assign [class="Nautilus"] 9
 
-exec unity-settings-daemon
-exec gnome-terminal
-#exec firefox
-exec sleep 5; google-chrome
+exec --no-startup-id /usr/lib/gnome-settings-daemon/gsd-xsettings
+exec --no-startup-id /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+exec --no-startup-id gnome-flashback
 exec pa-applet
+
+exec gnome-terminal
+#exec setxkbmap de neo
+#exec firefox
+#exec sleep 5; google-chrome
 exec sleep 5; feh --bg-max /home/sporz/custom/bgimage
 #exec /home/sporz/set_xrandr.sh
 

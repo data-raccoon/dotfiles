@@ -25,8 +25,3 @@ if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
 
-# re-enable unity-control-center icons
-if [ $XDG_CURRENT_DESKTOP="i3" ]; then
-    XDG_CURRENT_DESKTOP="Unity"
-fi
-
