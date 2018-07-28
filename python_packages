@@ -1,0 +1,37 @@
+# powerful arrays
+numpy
+# create great plots
+matplotlib
+# dot graphviz python bindings
+pydot
+# scientific functions
+scipy
+mdp
+sklearn
+pymc
+# data analysis framework
+pandas
+# support for hdf5 file format
+tables
+# error propagation
+uncertainties
+# convenient interactive python
+ipython
+jupyter
+# python style checker
+flake8
+# python tests
+pytest
+# python progressbar
+progressbar
+# python ipython debugger
+ipdb
+# dependency graphs
+pycallgraph
+# games
+pygame
+opengl
+# create guis
+PyQt5
+# configuration files
+pyyaml

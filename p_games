@@ -5,6 +5,4 @@
 teeworlds
 libstdc++5
 # environment to start windows applications
-wine
-winetricks
 playonlinux

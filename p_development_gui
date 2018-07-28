@@ -2,21 +2,14 @@
 kate
 # debugging
 kcachegrind
-# ipython in browser
-ipython-notebook
 # gui creation
-python-qt4
 pyqt4-dev-tools
 # tex ide
-kile
+# kile
 # tex suite
-texlive-full
+# texlive-full
 # tex bibliography management
-jabref
-# python
-python-opengl
-python-pygame
-python-yaml
+# jabref
 # diffs for multiple input files
 kdiff3
 # mouse automation

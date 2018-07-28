@@ -174,9 +174,13 @@ new_window 1pixel
 
 bind $mod+96 exec "xtrlock"
 
-exec unity-settings-daemon
-exec gnome-terminal
+exec --no-startup-id /usr/lib/gnome-settings/daemon/gsd-xsettings
+exec --no-startup-id /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+exec --no-startup-id gnome-flashback
 exec pa-applet
-exec firefox
+
+
+exec gnome-terminal
 exec sleep 5; feh --bg-max /home/stev/custom/bgimage
-exec dropbox start
+#exec dropbox start
+

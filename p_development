@@ -1,42 +1,11 @@
-# powerful arrays
-python-numpy
-# create great plots
-python-matplotlib
-# dot graphviz python bindings
-python-pydot
-# scientific functions
-python-scipy
-python-mdp
-python-sklearn
-python-pymc
-# data analysis framework
-python-pandas
-# support for hdf5 file format
-python-tables
-# error propagation
-python-uncertainties
-# convenient interactive python
-ipython
 # switch python environments
-python-virtualenv
 virtualenvwrapper
 # python style checker
 pep8
 pylint
-python-flake8
-# python tests
-python-pytest
-# python progressbar
-python-progressbar
-# python ipython debugger
-python-ipdb
 # version control system
-subversion
-subversion-tools
 mercurial
 git
-# extension for large binaries
-git-annex
 # advanced log viewer for git
 tig
 # C compiler
@@ -48,16 +17,15 @@ libblas-dev
 liblapack-dev
 gfortran
 # tex wrapper for number of runs
-latex-mk
+# latex-mk
 # spell checker
 aspell
 aspell-de
 # word counter excluding tex, texcount
-texlive-extra-utils
+# texlive-extra-utils
 # eps crop
 epstool
 # python call/dependency graphs
-python-pycallgraph
 snakefood
 # R
 #r-base  # get from cran repositories
@@ -71,6 +39,7 @@ libpq-dev
 libxml2-dev
 # dependencies for r rPython
 python-dev
+python3-dev
 # dependencies for r rJava
 default-jre-headless
 # dependencies for r jupyter kernel
@@ -79,12 +48,9 @@ libzmq3-dev
 htop
 # command line calculations
 num-utils
-<<<<<<< HEAD
 # converting ipython notebooks to pdf; markdown2latex
 pandoc
 # amazon web service client
 awscli
 # parallel command line
 moreutils
-# static website generator
-jekyll

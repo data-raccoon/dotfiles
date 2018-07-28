@@ -7,9 +7,7 @@ gparted
 # read motherboard sensors
 lm-sensors
 # gui administration of desktop stuff
-konsole
 gnome-tweak-tool
-systemsettings
 gconf-editor
 d-feet
 # bootable usb images
