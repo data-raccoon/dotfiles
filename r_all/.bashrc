@@ -92,6 +92,7 @@ alias lsold="ls -alht"
 alias nautilus="nautilus --no-desktop"
 # fix wine sound bugs
 alias wine="PULSE_LATENCY_MSEC=60 wine"
+alias gset="env XDG_CURRENT_DESKTOP=GNOME gnome-control-center"
 
 export GOPATH=$HOME/go
 export GOROOT=/usr/lib/go
