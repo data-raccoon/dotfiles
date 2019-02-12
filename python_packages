@@ -35,3 +35,5 @@ opengl
 PyQt5
 # configuration files
 pyyaml
+# package and test prep
+tox
