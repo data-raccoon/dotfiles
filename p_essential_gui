@@ -19,6 +19,7 @@ openjdk-7-jre-lib
 unetbootin
 # tiling window-manager
 i3
+suckless-tools
 # set background image
 feh
 # set gtk-theme
