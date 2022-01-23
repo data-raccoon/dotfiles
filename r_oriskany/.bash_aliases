@@ -1,0 +1,7 @@
+alias airflow_tunnel='autossh -n -f -L 8188:localhost:8188 server13 sleep 99999'
+alias s13_proxy='ssh -f -N -D 6789 localhost'
+alias psql_tunnel='autossh -n -f -L 5432:localhost:5432 server13 sleep 99999'
+alias s13='ssh server13 -R 6790:localhost:6789'
+alias s13d='ssh datamaster@server13 -R 1081:localhost:6789'
+alias stats='ssh kirill@stats'
+alias gset='env XDG_CURRENT_DESKTOP=GNOME gnome-control-center'
