@@ -11,11 +11,11 @@ tig
 # C compiler
 g++
 # tolle C lib, GSL
-libgsl0ldbl
+#libgsl0ldbl
 # build dep scipy
-libblas-dev
-liblapack-dev
-gfortran
+#libblas-dev
+#liblapack-dev
+#gfortran
 # tex wrapper for number of runs
 # latex-mk
 # spell checker
@@ -26,22 +26,22 @@ aspell-de
 # eps crop
 epstool
 # python call/dependency graphs
-snakefood
+#snakefood
 # R
 #r-base  # get from cran repositories
 # installation tools
 automake
 # dependencies for r twitteR
-libcurl4-openssl-dev
+#libcurl4-openssl-dev
 # dependencies for r posgresql
-libpq-dev
+#libpq-dev
 # dependencies for r xml2
-libxml2-dev
+#libxml2-dev
 # dependencies for r rPython
-python-dev
-python3-dev
+#python-dev
+#python3-dev
 # dependencies for r rJava
-default-jre-headless
+#default-jre-headless
 # dependencies for r jupyter kernel
 libzmq3-dev
 # resource monitor
@@ -51,6 +51,6 @@ num-utils
 # converting ipython notebooks to pdf; markdown2latex
 pandoc
 # amazon web service client
-awscli
+#awscli
 # parallel command line
 moreutils

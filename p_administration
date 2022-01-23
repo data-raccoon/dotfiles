@@ -11,7 +11,7 @@ gnome-tweak-tool
 gconf-editor
 d-feet
 # bootable usb images
-unetbootin
+#unetbootin
 fsarchiver
 # hd info, manipulation
 smartmontools
@@ -21,7 +21,7 @@ trickle
 # ssh-based remote configuration
 ansible
 # python package installer
-python-pip
+python3-pip
 # install local deb packages with dependencies
 gdebi
 # encrypted backups

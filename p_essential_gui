@@ -11,12 +11,12 @@ pidgin
 # gui ftp client
 filezilla
 # java
-openjdk-7-jdk
-openjdk-7-jre
-openjdk-7-jre-headless
-openjdk-7-jre-lib
+#openjdk-7-jdk
+#openjdk-7-jre
+#openjdk-7-jre-headless
+#openjdk-7-jre-lib
 # create bootable usb devices
-unetbootin
+#unetbootin
 # tiling window-manager
 i3
 suckless-tools

@@ -3,7 +3,7 @@ kate
 # debugging
 kcachegrind
 # gui creation
-pyqt4-dev-tools
+#pyqt4-dev-tools
 # tex ide
 # kile
 # tex suite

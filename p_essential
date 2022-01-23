@@ -56,7 +56,7 @@ slurm
 ack-grep
 # path stuff
 symlinks
-realpath
+#realpath
 # encrpytion
 ecryptfs-utils
 # parallel computing
