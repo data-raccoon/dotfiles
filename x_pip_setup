@@ -2,12 +2,16 @@
 
 source /usr/share/virtualenvwrapper/virtualenvwrapper.sh
 
-mkvirtualenv all --system-site-packages
-workon all
-pip install costcla 
-pip install bokeh
-pip install dask
-pip install jsonschema
-pip install mistune
-pip install ipython --upgrade
+mkvirtualenv all3 --system-site-packages
+workon all3
+pip3 install costcla 
+pip3 install bokeh
+pip3 install dask
+pip3 install jsonschema
+pip3 install mistune
+pip3 install ipython --upgrade
+pip3 install spyder
+pip3 install numpy
+pip3 install scipy
+pip3 install pandas
 
