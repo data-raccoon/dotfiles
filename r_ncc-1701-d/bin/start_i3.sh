@@ -2,3 +2,4 @@
 export KDEWM=/usr/bin/i3
 
 # from https://medium.com/@vishnu_mad/using-i3-window-manager-with-kde-plasma-c2ac70594d8
+# also: https://maxnatt.gitlab.io/posts/kde-plasma-with-i3wm/
